@@ -12,9 +12,9 @@
 def reverse_each_word(str)
   words = str.split(" ")
   
-  words.collect { |word| word.reverse }
+  reversed_words = words.collect { |ele| ele.reverse }
   
-  return words.join(" ")
+  return reversed_words.join(" ")
 end
 
 
